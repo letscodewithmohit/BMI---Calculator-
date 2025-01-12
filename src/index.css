@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightsteelblue;
+}
+.main {
+  border: 2px solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+
+  width: 90vw;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  background-color: blueviolet;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  padding: 20px 10px;
+}
+.inputDiv {
+  width: 70%;
+  /* border: 2px solid lightblue; */
+}
+.inputSlider {
+  width: 100%;
+}
+
+.output {
+  padding: 10px 5px;
+  border-radius: 9999px;
+  background-color: #1b1096;
+  margin: 10px;
+  color: #fff;
+}
+.outputDiv {
+  /* border: 2px solid lightblue; */
+  margin-top: 20px;
+}
